@@ -5,7 +5,7 @@ import org.springframework.boot.gradle.tasks.application.CreateBootStartScripts
 import org.springframework.boot.gradle.tasks.run.BootRun
 
 plugins {
-    kotlin("jvm") version "1.3.40"
+    kotlin("jvm") version "1.3.50"
     application
     id("org.springframework.boot") version "2.1.6.RELEASE"
 
@@ -69,7 +69,7 @@ dependencies {
     implementation(kotlin("stdlib-jdk8"))
     implementation("io.projectreactor:reactor-core:3.2.10.RELEASE")
     implementation("org.springframework.boot", "spring-boot-starter-jdbc")
-    implementation("org.jetbrains.exposed", "exposed", "0.14.2")
+    implementation("org.jetbrains.exposed", "exposed", "0.17.10") // was 0.14.2 which is not available
 
     implementation("mysql:mysql-connector-java:8.0.14")
     implementation("org.postgresql:postgresql:42.2.5")
