@@ -1,5 +1,5 @@
 # awnz fork
-A quick hack to change some dependency versions arond to make this tool compile and run -last updated 12 August 2025.
+A quick hack to change some dependency versions arond to make this tool compile and run - last updated 12 August 2025.
 
 # bonita-purge-tool
 
