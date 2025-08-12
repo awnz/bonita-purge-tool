@@ -5,7 +5,7 @@ import org.springframework.boot.gradle.tasks.application.CreateBootStartScripts
 import org.springframework.boot.gradle.tasks.run.BootRun
 
 plugins {
-    kotlin("jvm") version "1.3.50"
+    kotlin("jvm") version "1.4.32" // minimum version that wants to run (1.3.50 is the minimum version that will compile - but not run)
     application
     id("org.springframework.boot") version "2.1.6.RELEASE"
 
